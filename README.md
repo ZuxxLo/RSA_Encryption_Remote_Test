@@ -1,10 +1,11 @@
-The objective of this lab is to implement the RSA public key encryption in Java. This will be
-done in three steps:
-1. Implementation: write a Java program allowing you to (de)encrypt a number using the RSA
+**The objective of this lab is to implement the RSA public key encryption in Java. This will be
+done in three steps:** 
+## 1. Implementation:
+write a Java program allowing you to (de)encrypt a number using the RSA
 algorithm.
-2. Local test: encrypt and decrypt a number on the same machine to verify that everything is
+## 2. Local test: encrypt and decrypt a number on the same machine to verify that everything is
 working properly.
-3. Remote test (two machines): generate a private key/public key pair and transmit your public
+## 3. Remote test (two machines): generate a private key/public key pair and transmit your public
 key to a colleague. This will use it to encrypt a message (always a number...) that it will send to you.
 Then decrypt this message and check with your colleague that the message obtained is correct.
 Instructions for implementation

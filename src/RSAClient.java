@@ -5,7 +5,7 @@ import java.math.BigInteger;
 public class RSAClient {
     public static void main(String[] args) {
         try {
-            Socket socket = new Socket("dsdsds", 7777);
+            Socket socket = new Socket("INSERT HERE IP ADRESSE", 7777); //for local hosting just write "localhost"
 
             // Receive public key from server
             ObjectInputStream inputStream = new ObjectInputStream(socket.getInputStream());
